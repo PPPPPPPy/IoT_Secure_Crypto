@@ -17,7 +17,7 @@ enhance security with IoT device network traffic
 - Server : IoT devices control center
 - Client : IoT device application
 
-* Enviroment
+#### Enviroment
 - MySQL 5.6
 - Java 1.8
 - JRE 1.8
