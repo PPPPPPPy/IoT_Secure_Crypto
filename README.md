@@ -23,4 +23,6 @@ enhance security with IoT device network traffic
 - JRE 1.8
 - mysql-connector 1.8
 
-Thanks my friend give the chance to me to implement CryptoGraphy application
+
+Author: PPPy
+Leader: YoN
