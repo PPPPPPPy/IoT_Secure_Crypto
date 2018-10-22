@@ -22,7 +22,7 @@ public class RSAdecrypt {
         String plain = null;
         try{
             PrivateKey privateKey = readPrivateKey(PRIVATE_KEY);
-            Cipher cipher = Cipher.getInstance("RSA");
+            Cipher cipher = Cipher.getInstance("RSA/ECB/PKCS1Padding");
             cipher.init(Cipher.DECRYPT_MODE,privateKey);
             decryptedData = cipher.doFinal(data);
             plain = new String(decryptedData);
