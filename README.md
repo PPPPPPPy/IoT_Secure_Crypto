@@ -23,6 +23,9 @@ enhance security with IoT device network traffic
 - JRE 1.8
 - mysql-connector 1.8
 
+#### Update
+[Crypto] Cipher.instance -> "RSA/ECB/PKCS1Padding"
+
 
 Author: PPPy
 Leader: YoN
