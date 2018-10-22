@@ -23,7 +23,7 @@ public class RSAencrypt {
         byte[] encryptedData = null;
         try{
             PublicKey publicKey = readPublicKey(PUBLIC_KEY);
-            Cipher cipher = Cipher.getInstance("RSA");
+            Cipher cipher = Cipher.getInstance("RSA/ECB/PKCS1Padding");
             cipher.init(Cipher.ENCRYPT_MODE,publicKey);
             encryptedData = cipher.doFinal(data2Encrypt);
             System.out.println("Encrypted Data: " + encryptedData);
