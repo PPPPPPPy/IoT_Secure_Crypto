@@ -25,6 +25,7 @@ enhance security with IoT device network traffic
 
 #### Update
 [Crypto] Cipher.instance -> "RSA/ECB/PKCS1Padding"
+[Scanner] situation: device join and initialize automatically, so scanner find the host on the port
 
 
 Author: PPPy
