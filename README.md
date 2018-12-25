@@ -24,7 +24,7 @@ enhance security with IoT device network traffic
 - mysql-connector 1.8
 
 #### Update
-[Crypto] Cipher.instance -> "RSA/ECB/PKCS1Padding"
+[Crypto] Cipher.instance -> "RSA/ECB/PKCS1Padding"<br />
 [Scanner] situation: device join and initialize automatically, so scanner find the host on the port
 
 
